@@ -16,7 +16,7 @@ var MOSI = 16, MISO = 14, SDA = 2; //DONT TOUCH
 
 	//DC MOTORS
 		define( 'Forward_Speed', 80 ); //1-100
-		//define(	'Backward_Speed', 50 );
+		//define('Backward_Speed', 50 );
 		define( 'R_Turn_Angular_Velocity', 70 ); //1-100
 		define( 'L_Turn_Angular_Velocity', 70 );
 		define( 'Turn_Duration', 300 ); //(ms)
@@ -37,12 +37,12 @@ var MOSI = 16, MISO = 14, SDA = 2; //DONT TOUCH
 		define( 'Servo3_speed',  40 );
 
 	//KEYPRESS DEFINITIONS - trigger "on-the-fly" control
-		define( 'Start_Automation1_KEY', 'p' );
-		define( 'Start_Automation2_KEY', 'o' );
-		define( 'Start_Automation3_KEY', 'i' );
+		define( 'Start_Automode1_KEY', 'p' );
+		define( 'Start_Automode2_KEY', 'o' );
+		define( 'Start_Automode3_KEY', 'i' );
 
 		define(	'Run_Forward_KEY', 'w' );
-		//define(	'Run_Backward_KEY', 's' );
+		//define('Run_Backward_KEY', 's' );
 		define( 'Turn_R_KEY', 'd' );
 		define( 'Turn_L_KEY', 'a' );
 
