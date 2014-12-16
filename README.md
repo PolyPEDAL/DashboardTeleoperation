@@ -39,8 +39,8 @@ __Set Parameters (PARAMS.js)__
 
 Set Keypress Definitions
 
-    define( 'Start_Automation1_KEY', 'p' );
-    define( 'Start_Automation2_KEY', 'o' );
+    define( 'Start_Automode1_KEY', 'p' );
+    define( 'Start_Automode2_KEY', 'o' );
     ...
     define( 'Run_Forward_KEY', 'a' );
     define( 'Turn_R_KEY, 'd' );
