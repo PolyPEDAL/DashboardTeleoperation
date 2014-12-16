@@ -478,9 +478,9 @@ function explore(peripheral, arr, callback) {
 				console.log('RUNNING...');
 				console.log('');
 				console.log('Press keys defined in PARAMS.js:');
-				console.log('\tStart Automode1: ' + params.Start_Automation1_KEY);
-				console.log('\tStart Automode2: ' + params.Start_Automation2_KEY);
-				console.log('\tStart Automode3: ' + params.Start_Automation3_KEY);
+				console.log('\tStart Automode1: ' + params.Start_Automode1_KEY);
+				console.log('\tStart Automode2: ' + params.Start_Automode2_KEY);
+				console.log('\tStart Automode3: ' + params.Start_Automode3_KEY);
 				console.log('\tRun Forward: ' + params.Run_Forward_KEY);
 				console.log('\tTurn Right: ' + params.Turn_R_KEY);
 				console.log('\tTurn Left: ' + params.Turn_L_KEY);
@@ -524,18 +524,18 @@ function explore(peripheral, arr, callback) {
 					}
 					*/
 					//Keypress p: Start Automation
-					if (key && key.name == params.Start_Automation1_KEY){
-						console.log(params.Start_Automation1_KEY);
+					if (key && key.name == params.Start_Automode1_KEY){
+						console.log(params.Start_Automode1_KEY);
 						automode_sketch1(callback);
 					}
 
-					if (key && key.name == params.Start_Automation2_KEY){
-						console.log(params.Start_Automation2_KEY);
+					if (key && key.name == params.Start_Automode2_KEY){
+						console.log(params.Start_Automode2_KEY);
 						automode_sketch2(callback);
 					}
 
-					if (key && key.name == params.Start_Automation3_KEY){
-						console.log(params.Start_Automation3_KEY);
+					if (key && key.name == params.Start_Automode3_KEY){
+						console.log(params.Start_Automode3_KEY);
 						automode_sketch3(callback);
 					}
 
