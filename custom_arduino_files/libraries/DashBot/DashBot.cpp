@@ -543,14 +543,12 @@ void DashBot::executeRadioCommand(void)
         motorR_pwm = -1* motorR_pwm;
       }
       driveForTime(motorL_pwm, motorR_pwm, duration);     
-     break;
-
+      break;
+      
     case 8:
         delay_between_sensor_emissions = receivedRadioPacket[1];
-      break;
-
+     break;
     case 9:
-        //servo1.write(0, 30, false); 
         switch (receivedRadioPacket[3]){
           case 1:
             servo1.write(receivedRadioPacket[1], receivedRadioPacket[2], false);
@@ -566,6 +564,8 @@ void DashBot::executeRadioCommand(void)
             clearRadioPacket();
         }
       break;
+
+
     /*case 10:
         //servo1.write(180, 30, false); 
         servo2.write(receivedRadioPacket[1], receivedRadioPacket[2], false); 

@@ -188,4 +188,4 @@ Contact
 Michael Tsang <themichaeltsang@gmail.com> (2014)
 
 
-Special Thanks to Dr Chen Li, Kaushik Jarayam, Dwight Swingthorpe, Mari Batilando, and Sandeep Mistry
+Special Thanks to Dr Chen Li, Kaushik Jarayam, Dwight Springthorpe, Mari Batilando, and Sandeep Mistry
